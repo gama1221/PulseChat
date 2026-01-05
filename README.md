@@ -1,9 +1,8 @@
 # PulseChat
 
-# ConvoSphere  
 ### Secure Real-Time Chat Application (Java 21, Spring Boot, WebSockets, JWT)
 
-ConvoSphere is a **production-ready real-time chat application** built with **Java 21 (LTS)** and **Spring Boot 3**.  
+PulseChat is a **production-ready real-time chat application** built with **Java 21 (LTS)** and **Spring Boot 3**.  
 It enables secure, low-latency, one-to-one messaging using **WebSockets (STOMP)** and **JWT-based authentication**, with a clean and scalable backend architecture.
 
 This project is designed as a **portfolio-quality system**, demonstrating modern Java, Spring ecosystem best practices, and real-world system design.
@@ -83,7 +82,7 @@ Redis / Kafka for Scaling
 ## 📁 Project Structure
 
 ```java
-convosphere/
+PulseChat/
 ├── auth/
 │ ├── AuthController
 │ ├── JwtUtil
@@ -99,7 +98,7 @@ convosphere/
 ├── user/
 │ ├── UserEntity
 │ ├── UserRepository
-├── ConvoSphereApplication.java
+├── PulseChatApplication.java
 ```
 
 ---
@@ -155,8 +154,8 @@ PostgreSQL / MySQL
 Clone Repository
 
 ```java
-git clone https://github.com/your-username/convosphere-chat.git
-cd convosphere-chat
+git clone https://github.com/your-username/pulse-chat.git
+cd pulse-chat
 ```
 ```
 spring:
@@ -216,7 +215,7 @@ SEND /app/chat.private
   - Production-ready design
 
 ⭐ Why This Project Matters
-  - ConvoSphere showcases:
+  - PulseChat showcases:
   - Real-time communication
   - Secure authentication across protocols
   - Scalable backend design
